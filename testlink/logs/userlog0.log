@@ -1,0 +1,48 @@
+[>>][5b735a89de1b0546934761][DEFAULT][/testlink/install/installCheck.php][18/Aug/14 22:41:13]
+[<<][5b735a89de1b0546934761][DEFAULT][/testlink/install/installCheck.php][18/Aug/14 22:41:13][18/Aug/14 22:41:14][took 0.428244 secs]
+[>>][5b735afbbba22752658995][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:43:07]
+[<<][5b735afbbba22752658995][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:43:07][18/Aug/14 22:43:08][took 0.197346 secs]
+[>>][5b735b1d8c7dc481145254][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:43:41]
+	[18/Aug/14 22:43:41][ERROR][<nosession>][DATABASE]
+		ERROR ON exec_query() - database.class.php <br />1045 - Access denied for user 'root'@'localhost' (using password: NO) - CREATE TABLE /*prefix*/assignment_types (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `fk_table` varchar(30) default '',
+  `description` varchar(100) NOT NULL default 'unknown',
+  PRIMARY KEY  (`id`)
+) DEFAULT CHARSET=utf8<br />THE MESSAGE : CREATE TABLE /*prefix*/assignment_types (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `fk_table` varchar(30) default '',
+  `description` varchar(100) NOT NULL default 'unknown',
+  PRIMARY KEY  (`id`)
+) DEFAULT CHARSET=utf8
+Query failed: errorcode[1045]
+	errormsg:Access denied for user 'root'@'localhost' (using password: NO) 
+[<<][5b735b1d8c7dc481145254][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:43:41][18/Aug/14 22:43:41][took 0.347408 secs]
+[>>][5b735b865c8de742473227][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:45:26]
+[<<][5b735b865c8de742473227][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:45:26][18/Aug/14 22:45:26][took 0.063104 secs]
+[>>][5b735b9ee6468821758670][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:45:50]
+[<<][5b735b9ee6468821758670][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:45:50][18/Aug/14 22:45:51][took 0.065438 secs]
+[>>][5b735bee8a092269186560][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:47:10]
+[<<][5b735bee8a092269186560][DEFAULT][/testlink/install/installNewDB.php][18/Aug/14 22:47:10][18/Aug/14 22:47:10][took 0.060092 secs]
+[>>][5b7b3c7d5880e387537990][DEFAULT][/testlink/install/installCheck.php][18/Aug/20 22:11:09]
+[<<][5b7b3c7d5880e387537990][DEFAULT][/testlink/install/installCheck.php][18/Aug/20 22:11:09][18/Aug/20 22:11:10][took 0.692672 secs]
+[>>][5b7b3ca038243920056234][DEFAULT][/testlink/install/installNewDB.php][18/Aug/20 22:11:44]
+[<<][5b7b3ca038243920056234][DEFAULT][/testlink/install/installNewDB.php][18/Aug/20 22:11:44][18/Aug/20 22:11:44][took 0.064649 secs]
+[>>][5b7b3cddc897c835347278][DEFAULT][/testlink/install/installNewDB.php][18/Aug/20 22:12:45]
+[<<][5b7b3cddc897c835347278][DEFAULT][/testlink/install/installNewDB.php][18/Aug/20 22:12:45][18/Aug/20 22:12:45][took 0.04973 secs]
+[>>][5b7b3d029261e413787301][DEFAULT][/testlink/install/installNewDB.php][18/Aug/20 22:13:22]
+	[18/Aug/20 22:13:22][ERROR][<nosession>][DATABASE]
+		ERROR ON exec_query() - database.class.php <br />1045 - Access denied for user 'root'@'localhost' (using password: NO) - CREATE TABLE /*prefix*/assignment_types (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `fk_table` varchar(30) default '',
+  `description` varchar(100) NOT NULL default 'unknown',
+  PRIMARY KEY  (`id`)
+) DEFAULT CHARSET=utf8<br />THE MESSAGE : CREATE TABLE /*prefix*/assignment_types (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `fk_table` varchar(30) default '',
+  `description` varchar(100) NOT NULL default 'unknown',
+  PRIMARY KEY  (`id`)
+) DEFAULT CHARSET=utf8
+Query failed: errorcode[1045]
+	errormsg:Access denied for user 'root'@'localhost' (using password: NO) 
+[<<][5b7b3d029261e413787301][DEFAULT][/testlink/install/installNewDB.php][18/Aug/20 22:13:22][18/Aug/20 22:13:22][took 0.110831 secs]
